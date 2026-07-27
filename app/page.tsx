@@ -3,7 +3,7 @@
 import ContactForm from "./contact/ContactForm";
 
 const services = [
-  { number: "01", title: "Workforce", copy: "Qualified, dependable project personnel mobilized around the demands of the site, schedule, and scope.", link: "Explore Workforce", path: "/services/workforce" },
+  { number: "01", title: "Workforce", copy: "Pipefitters, welders, ironworkers, riggers, millwrights, electricians, equipment operators, field leadership, and project personnel mobilized around the demands of the work.", link: "Explore Workforce", path: "/services/workforce" },
   { number: "02", title: "Project Solutions", copy: "Project management and owner-representative support that improves visibility, coordination, and execution.", link: "Explore Project Solutions", path: "/services/project-solutions" },
   { number: "03", title: "Procurement", copy: "Responsive sourcing and supplier coordination that keeps materials and project needs moving.", link: "Explore Procurement", path: "/services/procurement" },
 ];
