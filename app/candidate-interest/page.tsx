@@ -12,8 +12,8 @@ export default function CandidateInterestPage() {
     <PageShell>
       <InteriorHero
         eyebrow="Candidate interest"
-        title="Tell us what"
-        accent="you bring to the work."
+        title="Tell us about"
+        accent="you"
         copy="Introduce your trade, field experience, or professional specialty and your interest in future industrial construction opportunities."
       />
       <section className="interior-section contact-page-layout candidate-layout" aria-labelledby="candidate-heading">
