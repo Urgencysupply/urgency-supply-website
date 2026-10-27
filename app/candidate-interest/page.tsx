@@ -20,7 +20,7 @@ export default function CandidateInterestPage() {
         <div>
           <p className="kicker">For prospective workers</p>
           <h2 id="candidate-heading">Start with your skills.</h2>
-          <p>From general labor and skilled trades to field leadership and project controls, tell us about the work that interests you, your general location, and your availability.</p>
+          <p>From general labor and skilled trades to engineering, project management, field leadership, and project controls, tell us about the work that interests you, your general location, and your availability.</p>
           <div className="candidate-notice">
             <h3>An introduction, not a job offer.</h3>
             <p>This page collects expressions of interest. It does not advertise specific openings or guarantee employment, placement, or a response. Role details, compensation, employment arrangements, and hiring timelines would need to be confirmed for any future opportunity.</p>
