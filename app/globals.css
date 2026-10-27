@@ -269,3 +269,31 @@ footer>p { justify-self:end; margin:0; color:rgba(255,255,255,.48); font-size:10
 }
 
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; }*,*:before,*:after { transition:none!important; } }
+
+/* Candidate inquiries remain separate from customer project requests. */
+.candidate-callout { display:grid; grid-template-columns:minmax(0,1fr) minmax(200px,.4fr); align-items:center; gap:40px; padding:44px max(24px,calc((100vw - 1280px)/2)); border-top:1px solid var(--steel-200); background:var(--steel-100); }
+.candidate-callout .kicker { margin-bottom:16px; color:var(--red-dark); }
+.candidate-callout h2 { font-size:clamp(28px,3vw,40px); line-height:1.1; }
+.candidate-callout p:last-child { max-width:680px; color:var(--steel-700); line-height:1.7; }
+.candidate-callout .text-link { min-height:48px; gap:20px; }
+.candidate-layout > *, .candidate-form .field-row > * { min-width:0; }
+.candidate-form h3, .candidate-notice h3 { margin:0 0 16px; font-size:24px; line-height:1.2; letter-spacing:-.025em; }
+.candidate-help, .candidate-notice p { color:var(--steel-700); font-size:15px; line-height:1.7; }
+.candidate-form > .candidate-help { margin-bottom:30px; }
+.candidate-notice { margin:30px 0; padding:24px; border-left:3px solid var(--red); background:var(--steel-100); }
+.candidate-notice p { margin-bottom:0; }
+.candidate-field-help { margin:-12px 0 26px; color:var(--steel-700); font-size:13px; line-height:1.6; }
+.candidate-form input, .candidate-form textarea { font-size:16px; }
+.candidate-form .button { background:var(--red-dark); line-height:1.5; padding:14px 20px; }
+.candidate-form .button:hover { background:var(--navy-900); }
+.candidate-layout .contact-channels a { flex-wrap:wrap; }
+.candidate-layout .contact-channels strong, .candidate-draft { overflow-wrap:anywhere; }
+.candidate-layout .text-link { gap:20px; line-height:1.6; margin-top:30px; }
+.candidate-layout :focus-visible, .candidate-callout :focus-visible { outline:3px solid var(--navy-800); outline-offset:4px; }
+.candidate-draft { margin-top:24px; padding-top:24px; border-top:1px solid var(--steel-200); }
+@media (max-width:960px) { .candidate-layout { grid-template-columns:1fr; } }
+@media (max-width:760px) { .candidate-callout { grid-template-columns:1fr; gap:12px; padding:36px 20px; } }
+
+.candidate-fields { min-width:0; margin:0; padding:0; border:0; }
+.candidate-field-legend { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.candidate-fields:disabled { opacity:.6; }
